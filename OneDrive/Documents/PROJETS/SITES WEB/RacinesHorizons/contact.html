@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Racines & Horizons</title>
+  <meta name="description" content="Contactez-nous pour un devis, une question ou un projet de voyage sur-mesure en Afrique de l’Ouest." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="canonical" href="https://www.votredomaine.tld/contact.html" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Racines <span>&</span> Horizons</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="circuits.html">Circuits</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="blog.html">Blog/Témoignages</a></li>
+          <li><a href="complements.html">Compléments digitaux</a></li>
+          <li><a class="btn btn-small" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="section">
+    <div class="container grid two">
+      <section class="fade-in">
+        <h1 class="page-title">Contact</h1>
+        <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+          <div class="field">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Votre demande, question, ou projet de voyage..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+          <p class="form-note">En envoyant, vous acceptez notre utilisation de vos données pour vous répondre. Aucune revente.</p>
+        </form>
+      </section>
+
+      <aside class="contact-info fade-in">
+        <h2>Coordonnées</h2>
+        <p><strong>Adresse :</strong> Lomé, Togo</p>
+        <p><strong>Téléphone :</strong> <a href="tel:+22879869008">+228 79 86 90 08</a></p>
+        <p><strong>WhatsApp :</strong> <a href="https://wa.me/22879869008" target="_blank" rel="noopener">Contact rapide</a></p>
+        <p><strong>Rendez-vous :</strong> Disponibles sur demande</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container sub-footer">
+      <small>© 2025 Racines & Horizons — Tous droits réservés</small>
+    </div>
+  </footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>
