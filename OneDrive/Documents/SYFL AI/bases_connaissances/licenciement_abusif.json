@@ -1,0 +1,22 @@
+{
+  "id": "licenciement_abusif",
+  "titre": "Licenciement abusif",
+  "articles_reference": [
+    "Code du travail togolais – articles 77 à 85",
+    "Code du travail togolais – article 84",
+    "Code du travail togolais – article 87"
+  ],
+  "texte_simple": "Un employeur ne peut pas vous licencier sans raison valable ni sans respecter la procédure. Si cela arrive, le licenciement est abusif et vous pouvez demander réparation.",
+  "questions_clarification": [
+    "Avez-vous reçu une lettre de licenciement ?",
+    "Quel motif a été donné par l’employeur ?",
+    "Avez-vous été convoqué à un entretien ?",
+    "Depuis combien de temps travaillez-vous dans l’entreprise ?"
+  ],
+  "actions": [
+    "Contester le licenciement",
+    "Saisir l’inspection du travail",
+    "Demander des dommages et intérêts",
+    "Saisir le tribunal du travail"
+  ]
+}

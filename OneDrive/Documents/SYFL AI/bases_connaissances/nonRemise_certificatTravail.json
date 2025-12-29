@@ -1,0 +1,17 @@
+{
+  "id": "non_remise_certificat_travail",
+  "titre": "Non-remise du certificat de travail",
+  "articles_reference": [
+    "Code du travail togolais – article 96"
+  ],
+  "texte_simple": "À la fin du contrat, l’employeur doit vous remettre un certificat de travail. Refuser ce document est une faute.",
+  "questions_clarification": [
+    "Avez-vous officiellement demandé le certificat ?",
+    "Depuis combien de temps le contrat est-il terminé ?"
+  ],
+  "actions": [
+    "Faire une demande écrite",
+    "Saisir l’inspection du travail",
+    "Demander des dommages et intérêts"
+  ]
+}

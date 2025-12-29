@@ -1,0 +1,18 @@
+{
+  "id": "cdd_abusif",
+  "titre": "Contrat à durée déterminée abusif",
+  "articles_reference": [
+    "Code du travail togolais – articles 48 et 49"
+  ],
+  "texte_simple": "Un contrat à durée déterminée ne doit pas servir à occuper un emploi permanent. Si votre poste est durable, le contrat peut être requalifié en CDI.",
+  "questions_clarification": [
+    "Votre poste est-il permanent ?",
+    "Combien de fois votre contrat a-t-il été renouvelé ?",
+    "Depuis combien d’années travaillez-vous pour cet employeur ?"
+  ],
+  "actions": [
+    "Demander la requalification en CDI",
+    "Saisir l’inspection du travail",
+    "Engager une action en justice"
+  ]
+}

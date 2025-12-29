@@ -1,0 +1,19 @@
+{
+  "id": "heures_supplementaires_non_payees",
+  "titre": "Heures supplémentaires non payées",
+  "articles_reference": [
+    "Code du travail togolais – article 6",
+    "Dispositions réglementaires togolaises sur les heures supplémentaires"
+  ],
+  "texte_simple": "Les heures travaillées au-delà du temps normal doivent être compensées. Si vous travaillez plus sans être payé, c’est une injustice.",
+  "questions_clarification": [
+    "Combien d’heures travaillez-vous par semaine ?",
+    "Les heures supplémentaires sont-elles demandées par l’employeur ?",
+    "Avez-vous une preuve des horaires effectués ?"
+  ],
+  "actions": [
+    "Réclamer le paiement des heures",
+    "Demander un repos compensateur",
+    "Saisir l’inspection du travail"
+  ]
+}

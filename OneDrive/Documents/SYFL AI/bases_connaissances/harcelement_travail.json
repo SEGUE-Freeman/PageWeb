@@ -1,0 +1,22 @@
+{
+  "id": "harcelement_travail",
+  "titre": "Harcèlement au travail",
+  "articles_reference": [
+    "Code du travail togolais – article 40",
+    "Code du travail togolais – article 41",
+    "Code du travail togolais – article 42"
+  ],
+  "texte_simple": "Personne n’a le droit de vous intimider, menacer ou vous faire des avances au travail. Le harcèlement est interdit et puni par la loi.",
+  "questions_clarification": [
+    "Quel type de comportement subissez-vous ?",
+    "Cela se répète-t-il souvent ?",
+    "Avez-vous des témoins ou des preuves ?",
+    "L’employeur a-t-il été informé ?"
+  ],
+  "actions": [
+    "Conserver les preuves",
+    "Informer l’employeur par écrit",
+    "Saisir l’inspection du travail",
+    "Déposer une plainte"
+  ]
+}

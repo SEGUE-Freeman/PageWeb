@@ -1,0 +1,19 @@
+{
+  "id": "periode_essai_abusive",
+  "titre": "Période d’essai abusive",
+  "articles_reference": [
+    "Code du travail togolais – article 44",
+    "Code du travail togolais – article 46"
+  ],
+  "texte_simple": "La période d’essai a une durée maximale prévue par la loi. Si elle dépasse cette durée ou est renouvelée abusivement, le travailleur est considéré comme définitivement embauché.",
+  "questions_clarification": [
+    "Quelle est la durée totale de votre période d’essai ?",
+    "Votre contrat est-il à durée déterminée ou indéterminée ?",
+    "Avez-vous reçu une notification écrite de renouvellement ?"
+  ],
+  "actions": [
+    "Vérifier la durée légale",
+    "Demander la confirmation du contrat",
+    "Contester la période d’essai abusive"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "absence_contrat_ecrit",
+  "titre": "Absence de contrat écrit",
+  "articles_reference": [
+    "Code du travail togolais – article 37"
+  ],
+  "texte_simple": "Même sans contrat écrit, un travail existe dès que vous travaillez sous l’autorité d’un employeur contre un salaire. L’employeur a l’obligation de formaliser le contrat.",
+  "questions_clarification": [
+    "Travaillez-vous régulièrement pour cet employeur ?",
+    "Recevez-vous un salaire ou une rémunération ?",
+    "Depuis quand travaillez-vous sans contrat écrit ?"
+  ],
+  "actions": [
+    "Demander un contrat écrit",
+    "Conserver les preuves de travail",
+    "Saisir l’inspection du travail"
+  ]
+}

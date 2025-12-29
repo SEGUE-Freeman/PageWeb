@@ -1,0 +1,21 @@
+{
+  "id": "salaire_impaye",
+  "titre": "Salaire impayé",
+  "articles_reference": [
+    "Code du travail togolais – article 36",
+    "Code du travail togolais – article 69"
+  ],
+  "texte_simple": "Si vous travaillez, votre employeur doit vous payer le salaire convenu. Ne pas payer un salaire est une injustice. Vous avez le droit de réclamer votre argent.",
+  "questions_clarification": [
+    "Depuis combien de temps le salaire n’est pas payé ?",
+    "Quel est votre type de contrat (CDD, CDI, verbal) ?",
+    "Travaillez-vous à temps plein ou partiel ?",
+    "Avez-vous une preuve de travail (messages, témoins, fiche de présence) ?"
+  ],
+  "actions": [
+    "Envoyer une réclamation écrite à l’employeur",
+    "Saisir l’inspection du travail",
+    "Engager une action devant le tribunal du travail",
+    "Demander l’aide d’un syndicat ou d’une ONG"
+  ]
+}

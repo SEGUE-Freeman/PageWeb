@@ -1,0 +1,18 @@
+{
+  "id": "licenciement_sans_preavis",
+  "titre": "Licenciement sans préavis",
+  "articles_reference": [
+    "Code du travail togolais – articles 74 et 82"
+  ],
+  "texte_simple": "En cas de licenciement, un préavis est obligatoire sauf faute grave. Sans préavis, vous avez droit à une indemnité.",
+  "questions_clarification": [
+    "Avez-vous été licencié immédiatement ?",
+    "Quel est votre niveau et ancienneté ?",
+    "Une faute grave a-t-elle été invoquée ?"
+  ],
+  "actions": [
+    "Réclamer l’indemnité de préavis",
+    "Contester la rupture",
+    "Saisir le tribunal du travail"
+  ]
+}
