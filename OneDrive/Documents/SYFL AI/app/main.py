@@ -45,7 +45,9 @@ app.add_middleware(
         "http://localhost:3000",  # Next.js dev
         "http://localhost:19006",  # Expo web
         "http://localhost:8081",  # Expo mobile
-        "https://syfl-ai-frontend-hxfdkojbn-louis-projects-2842b52f.vercel.app",  # Vercel production
+        "https://syfl-ai-frontend-hxfdkojbn-louis-projects-2842b52f.vercel.app",  # Vercel
+        "https://syfl-ai-frontend-m8ulrxvbu-louis-projects-2842b52f.vercel.app",  # Vercel preview
+        "https://syfl-ai-frontend.vercel.app",  # Vercel production
         "https://*.vercel.app",  # Tous les domaines Vercel
     ],
     allow_credentials=True,
