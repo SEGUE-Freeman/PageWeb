@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import axios from 'axios'
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://syfl-ai-backend.onrender.com'
 
 export default function Home() {
   const [email, setEmail] = useState('')
