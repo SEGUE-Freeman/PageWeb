@@ -30,11 +30,35 @@ export default function Home() {
         setToken(res.data.access_token)
         setMessage('Connexion réussie !')
       } else {
+        // Validation du mot de passe côté frontend
+        if (password.length < 8) {
+          setMessage('Le mot de passe doit contenir au moins 8 caractères')
+          setLoading(false)
+          return
+        }
+        if (!/[A-Z]/.test(password)) {
+          setMessage('Le mot de passe doit contenir au moins une majuscule')
+          setLoading(false)
+          return
+        }
+        if (!/[a-z]/.test(password)) {
+          setMessage('Le mot de passe doit contenir au moins une minuscule')
+          setLoading(false)
+          return
+        }
+        if (!/[0-9]/.test(password)) {
+          setMessage('Le mot de passe doit contenir au moins un chiffre')
+          setLoading(false)
+          return
+        }
+
+        // Extraire username de l'email (partie avant @)
+        const usernameFromEmail = email.split('@')[0].replace(/[^a-zA-Z0-9_]/g, '_')
         await axios.post(`${API_URL}/auth/register`, {
           email,
-          username: email,
+          username: usernameFromEmail,
           password,
-          full_name: email
+          full_name: usernameFromEmail
         })
         setMessage('Inscription réussie ! Connectez-vous maintenant.')
         setIsLogin(true)
@@ -112,6 +136,11 @@ export default function Home() {
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 required
               />
+              {!isLogin && (
+                <p className="mt-1 text-xs text-gray-500">
+                  Min. 8 caractères avec majuscule, minuscule et chiffre
+                </p>
+              )}
             </div>
 
             <button
