@@ -13,20 +13,8 @@ class UserCreate(BaseModel):
     """Schéma pour créer un utilisateur"""
     email: EmailStr
     username: str = Field(..., min_length=3, max_length=50, pattern="^[a-zA-Z0-9_]+$")
-    password: str = Field(..., min_length=8, max_length=100)
+    password: str = Field(..., min_length=6, max_length=100)
     full_name: Optional[str] = Field(None, max_length=100)
-    
-    @field_validator('password')
-    @classmethod
-    def validate_password(cls, v):
-        """Valide que le mot de passe contient des caractères variés"""
-        if not re.search(r'[A-Z]', v):
-            raise ValueError('Le mot de passe doit contenir au moins une majuscule')
-        if not re.search(r'[a-z]', v):
-            raise ValueError('Le mot de passe doit contenir au moins une minuscule')
-        if not re.search(r'[0-9]', v):
-            raise ValueError('Le mot de passe doit contenir au moins un chiffre')
-        return v
 
 
 class UserLogin(BaseModel):

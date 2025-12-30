@@ -31,23 +31,8 @@ export default function Home() {
         setMessage('Connexion réussie !')
       } else {
         // Validation du mot de passe côté frontend
-        if (password.length < 8) {
-          setMessage('Le mot de passe doit contenir au moins 8 caractères')
-          setLoading(false)
-          return
-        }
-        if (!/[A-Z]/.test(password)) {
-          setMessage('Le mot de passe doit contenir au moins une majuscule')
-          setLoading(false)
-          return
-        }
-        if (!/[a-z]/.test(password)) {
-          setMessage('Le mot de passe doit contenir au moins une minuscule')
-          setLoading(false)
-          return
-        }
-        if (!/[0-9]/.test(password)) {
-          setMessage('Le mot de passe doit contenir au moins un chiffre')
+        if (password.length < 6) {
+          setMessage('Le mot de passe doit contenir au moins 6 caractères')
           setLoading(false)
           return
         }
@@ -138,7 +123,7 @@ export default function Home() {
               />
               {!isLogin && (
                 <p className="mt-1 text-xs text-gray-500">
-                  Min. 8 caractères avec majuscule, minuscule et chiffre
+                  Minimum 6 caractères
                 </p>
               )}
             </div>
